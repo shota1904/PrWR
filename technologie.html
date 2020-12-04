@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Technologie</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="img/technologie.png">
+</head>
+
+<body>
+	<div id="banner">
+		<img class="logo" src="img/car4.jpg" alt="backgroundpicture">
+		<h1>Elektroautos</h1>
+	</div>
+
+	<div id="navbar">
+	  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="markt.html">Marktentwicklung</a></li>
+			<li><a href="geschichte.html">Geschichte</a></li>
+			<li><a class="active" href="#">Technologie</a></li>
+			<li><a href="impressum.html">Impressum</a></li>
+		</ul>
+	</div>
+
+<div class="container">
+	<br>
+  	<h2>Technologie</h2>
+<main>
+	<h3>So funktioniert ein E-Auto:</h3>
+	<div class="gallery">
+		<img style="border: .1px solid #ccc;" src="img/VW-Elektroauto-Batterie.jpg" alt="VW Elektroauto Batterie">
+		<div class="desc">VW Elektroauto Batterie</div>
+	</div>
+	<p>
+	Das Herz eines Elektroautos ist natürlich der Motor. Es wird mit der in der Batterie gespeicherten Energie betrieben.
+	Der Elektromotor wandelt diese elektrische Energie in mechanische Energie um, indem er ein Magnetfeld erzeugt. Ihre anziehenden und abstossenden Kräfte bringen das Auto in Bewegung.
+	Die wichtigsten Komponenten im E-Auto sind:
+	</p>
+	<p>
+	- Hochvoltbatterie<br>
+	- Niedervoltbatterie<br>
+	- Elektromotor<br>
+	- Leistungselektronik<br>
+	- Ladeanschluss
+	</p>
+	<h3>Strom wird in der Hochvoltbatterie gespeichert</h3>
+	<p>
+		Die Stromspeicher ist vergleichbar mit dem Kraftstofftank eines herkömmlichen Autos. Dort wird Energie in Form von Elektrizität gespeichert. Die Batterie muss immer wieder aufgeladen werden und ihre Kapazität bestimmt die Reichweite des Fahrzeugs.
+		Die Batterie ist auch die teuerste Komponente in einem Elektrofahrzeug. Derzeit werden Lithium-Ionen-Batterien verwendet. Sie haben eine lange Lebensdauer, laden sich schnell auf und können mehr Strom speichern als andere Batterien. Je leistungsstärker die Batterie ist, desto höher ist der Preis des Autos.
+	</p>
+	<h3>Die Niedervoltbatterie versorgt die Bordelektronik</h3>
+	<p>
+		Die zweite, kleinere Batterie versorgt die Fahrzeugelektronik. Dazu gehören Radios, Beleuchtungsgeräte, Scheibenwischer und Tempomatsysteme.<br>
+		Die durch Energierückgewinnung gewonnene Energie kann auch in Niederspannungsbatterien gespeichert werden. Mit diesem Mechanismus wird die beim Bremsen freigesetzte Energie an die Batterie zurückgespeist.
+	</p>
+	<h3>Antrieb durch den Elektromotor</h3>
+	<p>
+		In Elektrofahrzeugen werden sogenannte Synchron-Wechselstrommotoren eingesetzt. Es besteht aus zwei Elektromagneten (Stator und Rotor).
+		Der Stator ist unbeweglich und erzeugt mit Gleichstrom ein konstantes Magnetfeld. Der rotierende Rotor erzeugt mit Wechselstrom sein Magnetfeld. Die beiden Magnete ziehen sich abwechselnd an und stoßen sich ab. Der Rotor dreht sich und bewegt das Auto.
+		Elektromotoren beziehen Energie aus der Leistungselektronik. Es wandelt die elektrische Energie der Batterie in die richtige Form, Intensität und Frequenz um.
+	</p>
+	<h3>Der Ladeanschluss bringt die Energie</h3>
+	<p class="end">
+		Die Ladeschnittstelle ist der Stecker eines Elektroautos. Über diesen Anschluss kann Strom vom Netz zum Fahrzeug übertragen werden. Ähnlich wie bei einem Auto mit Verbrennungsmotor befindet sich an der Seite des Autos eine Schallwand. Sie können das Auto mit einer normalen Steckdose aufladen, aber die Wandmontage ist besser. Ladestationen auf öffentlichen Parkplätzen oder Tankstellen werden manchmal schneller aufgeladen.
+	</p>
+	</main>
+</div>
+	
+<footer>
+	<p>Elektroauto Gruppe</p>
+</footer>
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <!-- Script to change opacity when scrolling the web page -->
+    <script> 
+         $(document).ready(function(){ 
+            $(window).scroll(function(){ 
+                $('#banner').css("opacity", 1- $(window).scrollTop() / 400) 
+            }) 
+        }) 
+    </script> 
+	<script src="js/script.js"></script>
+</body>
+</html>

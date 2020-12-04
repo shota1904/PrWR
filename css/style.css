@@ -1,0 +1,206 @@
+*{
+	font-family:"Roboto", arial;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo{
+	width: 100%;
+	height: auto;
+}
+
+#banner img{
+	padding: 0px;
+	outline-style: auto;
+	outline-color: black;
+	background-attachment: fixed;
+}
+
+#banner h1 {
+	font-family:"Roboto-Slab", arial;
+	margin: auto;
+	position: absolute;
+	color: #FFFFFF;
+	text-shadow: 
+		-1px -1px 0 #000,
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	1px 1px 0 #000;
+	top: 6%;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 8vw;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+#navbar li{
+	float:left;
+	width: 20%;
+}
+#navbar a {
+	display: block;
+	padding: 8px;
+	background: url("../img/button.jpg");
+	outline-style: auto;
+	outline-color: black;
+}
+
+#navbar li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: url("../img/button.jpg");
+	outline-style: auto;
+	
+}
+
+#navbar li a:hover{ 
+	background: url("../img/buttonactive.jpg");
+	background-size: cover;
+}
+
+.container {
+	background: url("../img/body.jpg");
+	outline-style: auto;
+	background-size: cover;	
+}
+
+body {
+	background: url("../img/background.jpg");
+  	background-size: cover	
+}
+
+h2 {
+	font-size: 40px;
+	padding-left: 10px;
+}
+h3 {
+	color: #363636;
+	font-size: 25px;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+h4 {
+	color: #434343;
+	font-size: 20px;
+	padding-left: 15px;
+}
+#navbar .active {
+	background: url("../img/buttonactivesite.jpg");
+}
+
+main {
+	color: black;
+	font-size: 20px;
+}
+
+footer  {
+	background: url("../img/body.jpg");
+	outline-style: auto;
+	background-size: cover;
+}
+.end{
+	padding-bottom: 15px;
+}
+
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	diplay: inline;
+}
+.images{
+	margin: 5px;
+	border: 1px solid #ccc;
+	padding: 15px;
+	float: right;
+	width: 35vw;
+}
+
+.marktentwicklung {
+	width: 100%;
+}
+
+.bildbeschreibung{
+	padding: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.78);
+	color: white;
+	font-size: 15px;
+}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 25vw;
+	float: right;
+	padding: 15px;
+}
+
+div.gallery:hover {
+ 	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.78);
+	color: white;
+}
+body { 
+	opacity: .1;
+	transition: opacity 1s;
+}
+@media screen and (max-width: 850px){
+	li a{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 700px){
+	li a{
+		font-size: 4px;
+	}
+	h2{
+		font-size: 10px;
+	}
+	h3{
+		font-size: 7px;
+	}
+	h4{
+		font-size: 5px;
+	}
+	p{
+		font-size: 3px;
+	}
+	.bildbeschreibung{
+		font-size: 5px;
+	}
+	div.desc{
+		font-size: 5px;
+	}
+	div.gallery {
+	width: 35vw;
+	}
+}
