@@ -173,6 +173,11 @@ body {
 	opacity: .1;
 	transition: opacity 1s;
 }
+@media screen and (max-width: 1000px){
+	p{
+		font-size: 13px;
+	}
+}
 @media screen and (max-width: 850px){
 	@media screen and (max-width: 850px){
 	li a{
